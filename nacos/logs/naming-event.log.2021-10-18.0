@@ -1,0 +1,106 @@
+2021-10-18 15:41:50,995 ERROR [UPDATE-DOMAIN] Exception while taking item from LinkedBlockingDeque.
+
+2021-10-18 15:49:25,874 INFO DEFAULT_GROUP@@orderservice {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [172.16.18.70:8080:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2021-10-18 15:49:25,876 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@orderservice, ips: 172.16.18.70:8080_true,
+
+2021-10-18 15:51:28,297 INFO DEFAULT_GROUP@@userservice {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [172.16.18.70:8085:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2021-10-18 15:51:28,297 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@userservice, ips: 172.16.18.70:8085_true,
+
+2021-10-18 15:52:31,081 INFO {POS} {IP-DISABLED} valid: 172.16.18.70:8080@DEFAULT@DEFAULT_GROUP@@orderservice, region: unknown, msg: client timeout after 15000, last beat: 1634543536079
+
+2021-10-18 15:52:33,410 INFO {POS} {IP-DISABLED} valid: 172.16.18.70:8085@DEFAULT@DEFAULT_GROUP@@userservice, region: unknown, msg: client timeout after 15000, last beat: 1634543538409
+
+2021-10-18 15:52:38,926 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@orderservice, ips: 172.16.18.70:8080_false,
+
+2021-10-18 15:52:43,938 INFO service: DEFAULT_GROUP@@orderservice {POS} {IP-ENABLED} valid: 172.16.18.70:8080@DEFAULT, region: unknown, msg: client beat ok
+
+2021-10-18 15:52:48,490 INFO DEFAULT_GROUP@@userservice {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [172.16.18.70:8085:unknown:DEFAULT_1.0_false_false_DEFAULT]
+
+2021-10-18 15:52:48,490 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@userservice, ips: 
+
+2021-10-18 15:55:06,379 INFO {POS} {IP-DISABLED} valid: 172.16.18.70:8080@DEFAULT@DEFAULT_GROUP@@orderservice, region: unknown, msg: client timeout after 15000, last beat: 1634543689220
+
+2021-10-18 15:55:21,403 INFO DEFAULT_GROUP@@orderservice {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [172.16.18.70:8080:unknown:DEFAULT_1.0_false_false_DEFAULT]
+
+2021-10-18 15:55:21,403 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@orderservice, ips: 
+
+2021-10-18 16:15:08,360 INFO DEFAULT_GROUP@@userservice {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [172.16.18.70:8085:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2021-10-18 16:15:08,360 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@userservice, ips: 172.16.18.70:8085_true,
+
+2021-10-18 16:17:33,864 INFO DEFAULT_GROUP@@orderservice {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [172.16.18.70:8080:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2021-10-18 16:17:33,864 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@orderservice, ips: 172.16.18.70:8080_true,
+
+2021-10-18 16:18:54,009 INFO DEFAULT_GROUP@@userservice {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [172.16.18.70:8089:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2021-10-18 16:18:54,009 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@userservice, ips: 172.16.18.70:8085_true,172.16.18.70:8089_true,
+
+2021-10-18 16:21:03,694 INFO DEFAULT_GROUP@@userservice {SYNC} {IP-NEW} cluster: HZ, new ips size: 1, content: [172.16.18.70:8085:unknown:HZ_1.0_true_false_HZ]
+
+2021-10-18 16:21:03,695 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@userservice, ips: 172.16.18.70:8085_true,172.16.18.70:8085_true,172.16.18.70:8089_true,
+
+2021-10-18 16:21:05,973 INFO DEFAULT_GROUP@@userservice {SYNC} {IP-NEW} cluster: HZ, new ips size: 1, content: [172.16.18.70:8089:unknown:HZ_1.0_true_false_HZ]
+
+2021-10-18 16:21:05,974 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@userservice, ips: 172.16.18.70:8089_true,172.16.18.70:8085_true,172.16.18.70:8085_true,172.16.18.70:8089_true,
+
+2021-10-18 16:21:14,062 INFO {POS} {IP-DISABLED} valid: 172.16.18.70:8085@DEFAULT@DEFAULT_GROUP@@userservice, region: unknown, msg: client timeout after 15000, last beat: 1634545254088
+
+2021-10-18 16:21:14,062 INFO {POS} {IP-DISABLED} valid: 172.16.18.70:8089@DEFAULT@DEFAULT_GROUP@@userservice, region: unknown, msg: client timeout after 15000, last beat: 1634545254262
+
+2021-10-18 16:21:29,085 INFO DEFAULT_GROUP@@userservice {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [172.16.18.70:8089:unknown:DEFAULT_1.0_false_false_DEFAULT]
+
+2021-10-18 16:21:29,085 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@userservice, ips: 172.16.18.70:8089_false,172.16.18.70:8085_false,172.16.18.70:8085_false,
+
+2021-10-18 16:21:29,085 INFO DEFAULT_GROUP@@userservice {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [172.16.18.70:8085:unknown:DEFAULT_1.0_false_false_DEFAULT]
+
+2021-10-18 16:21:29,085 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@userservice, ips: 172.16.18.70:8089_false,172.16.18.70:8085_false,
+
+2021-10-18 16:21:31,018 INFO service: DEFAULT_GROUP@@userservice {POS} {IP-ENABLED} valid: 172.16.18.70:8089@HZ, region: unknown, msg: client beat ok
+
+2021-10-18 16:21:34,090 INFO DEFAULT_GROUP@@userservice {SYNC} {IP-DEAD} cluster: HZ, dead ips size: 1, content: [172.16.18.70:8085:unknown:HZ_1.0_false_false_HZ]
+
+2021-10-18 16:21:34,090 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@userservice, ips: 172.16.18.70:8089_true,
+
+2021-10-18 16:21:37,035 INFO DEFAULT_GROUP@@userservice {SYNC} {IP-NEW} cluster: HZ, new ips size: 1, content: [172.16.18.70:8085:unknown:HZ_1.0_true_false_HZ]
+
+2021-10-18 16:21:37,035 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@userservice, ips: 172.16.18.70:8089_true,172.16.18.70:8085_true,
+
+2021-10-18 16:22:57,431 INFO DEFAULT_GROUP@@userservice {SYNC} {IP-NEW} cluster: SH, new ips size: 1, content: [172.16.18.70:8090:unknown:SH_1.0_true_false_SH]
+
+2021-10-18 16:22:57,431 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@userservice, ips: 172.16.18.70:8089_true,172.16.18.70:8085_true,172.16.18.70:8090_true,
+
+2021-10-18 16:25:45,435 INFO DEFAULT_GROUP@@orderservice {SYNC} {IP-NEW} cluster: HZ, new ips size: 1, content: [172.16.18.70:8080:unknown:HZ_1.0_true_false_HZ]
+
+2021-10-18 16:25:45,435 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@orderservice, ips: 172.16.18.70:8080_true,172.16.18.70:8080_true,
+
+2021-10-18 16:25:54,837 INFO {POS} {IP-DISABLED} valid: 172.16.18.70:8080@DEFAULT@DEFAULT_GROUP@@orderservice, region: unknown, msg: client timeout after 15000, last beat: 1634545534836
+
+2021-10-18 16:26:04,854 INFO DEFAULT_GROUP@@orderservice {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [172.16.18.70:8080:unknown:DEFAULT_1.0_false_false_DEFAULT]
+
+2021-10-18 16:26:04,854 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@orderservice, ips: 172.16.18.70:8080_false,
+
+2021-10-18 16:26:05,485 INFO service: DEFAULT_GROUP@@orderservice {POS} {IP-ENABLED} valid: 172.16.18.70:8080@HZ, region: unknown, msg: client beat ok
+
+2021-10-18 16:28:40,463 INFO DEFAULT_GROUP@@orderservice {SYNC} {IP-NEW} cluster: HZ, new ips size: 1, content: [172.16.18.70:8080:unknown:HZ_1.0_true_false_HZ]
+
+2021-10-18 16:28:40,463 INFO [IP-UPDATED] namespace: a4f5fe8c-2075-4674-9c70-2d4f9b3f5879, service: DEFAULT_GROUP@@orderservice, ips: 172.16.18.70:8080_true,
+
+2021-10-18 16:28:55,147 INFO {POS} {IP-DISABLED} valid: 172.16.18.70:8080@HZ@DEFAULT_GROUP@@orderservice, region: unknown, msg: client timeout after 15000, last beat: 1634545715772
+
+2021-10-18 16:29:10,178 INFO DEFAULT_GROUP@@orderservice {SYNC} {IP-DEAD} cluster: HZ, dead ips size: 1, content: [172.16.18.70:8080:unknown:HZ_1.0_false_false_HZ]
+
+2021-10-18 16:29:10,178 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@orderservice, ips: 
+
+2021-10-18 16:30:47,879 INFO DEFAULT_GROUP@@orderservice {SYNC} {IP-NEW} cluster: HZ, new ips size: 1, content: [172.16.18.70:8080:unknown:HZ_1.0_true_false_HZ]
+
+2021-10-18 16:30:47,879 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@orderservice, ips: 172.16.18.70:8080_true,
+
+2021-10-18 16:31:00,691 INFO {POS} {IP-DISABLED} valid: 172.16.18.70:8080@HZ@DEFAULT_GROUP@@orderservice, region: unknown, msg: client timeout after 15000, last beat: 1634545840704
+
+2021-10-18 16:31:10,719 INFO DEFAULT_GROUP@@orderservice {SYNC} {IP-DEAD} cluster: HZ, dead ips size: 1, content: [172.16.18.70:8080:unknown:HZ_1.0_false_false_HZ]
+
+2021-10-18 16:31:10,719 INFO [IP-UPDATED] namespace: a4f5fe8c-2075-4674-9c70-2d4f9b3f5879, service: DEFAULT_GROUP@@orderservice, ips: 
+

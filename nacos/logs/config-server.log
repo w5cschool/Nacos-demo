@@ -1,0 +1,10 @@
+2021-10-20 09:52:40,277 INFO notifyConnectTimeout:200
+
+2021-10-20 09:52:40,281 INFO notifySocketTimeout:8000
+
+2021-10-20 09:52:40,282 INFO isHealthCheck:true
+
+2021-10-20 09:52:40,282 INFO maxHealthCheckFailCount:12
+
+2021-10-20 09:52:40,282 INFO maxContent:10485760
+
